@@ -1,0 +1,47 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.container{
+	width:100%;
+	height:100%;
+}
+
+h1{
+	position: absolute;
+font-family: helvetica;
+font-size: 250px;
+margin-top: -50px;
+}
+
+.wave{
+	position:relative;
+	width:25%;
+	height:50px;
+/*	margin-top:300px;*/
+	background-color:#0000ff;
+	float:left;
+}
+
+.row{
+	position:relative;
+	width:100%;
+	height: 410px;
+}
+
+#rotate{
+	transform: rotate(180deg);
+}
+
+
+#waveSec{
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	opacity:.9;
+}
+
+.wave3 #waveSec{
+	right:0;
+}
