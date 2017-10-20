@@ -18,7 +18,7 @@ h1{
 	position:relative;
 	width:25%;
 	height:600px;
-	background-color:#0000ff;
+	/*background-color:  #cc00ff;*/
 	float:left;
 }
 
@@ -38,7 +38,7 @@ h1{
 	position: absolute;
 	width: 90%;
 	height: 90%;
-	opacity:.9;
+	opacity:1;
 }
 
 .wave3 #waveSec{

@@ -729,12 +729,25 @@
         </script> -->
 
       <script type="text/javascript"> // You could easily add more colors to this array.
-      var colors = ['#00ffff', '#00ccff', '#0099ff', '#0066ff', '#0033ff', '#0000ff'];
+      var colors = [' #ccffff', ' #ccccff', '#cc99ff', '#cc66ff', ' #cc33ff', ' #cc00ff'];
       var waveSec = document.querySelectorAll("#waveSec");
 
       for (i = 0; i < waveSec.length; i++) {
   // Pick a random color from the array 'colors'.
   waveSec[i].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+  
+}
+
+</script> 
+
+<script type="text/javascript"> // You could easily add more colors to this array.
+      var colors = [' #ccffff', ' #ccccff', '#cc99ff', '#cc66ff', ' #cc33ff', ' #cc00ff'];
+      var wave = document.querySelectorAll(".wave");
+
+      for (i = 0; i < wave.length; i++) {
+  // Pick a random color from the array 'colors'.
+  wave[i].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 
   
 }

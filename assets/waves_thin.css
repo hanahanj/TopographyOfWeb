@@ -1,11 +1,13 @@
 body{
 	width:100%;
-	height:100%;
+	height:50%;
 	margin:0;
+	overflow: hidden;
 }
 .container{
 	width:100%;
-	height:100%;
+	height:50%;
+	overflow: hidden;
 }
 
 h1{
@@ -17,8 +19,8 @@ margin-top: -50px;
 
 .wave{
 	position:relative;
-	width:25%;
-	height:50px;
+	width:5%;
+	height:100px;
 /*	margin-top:300px;*/
 	background-color:#0000ff;
 	float:left;
