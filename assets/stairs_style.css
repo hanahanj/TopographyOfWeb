@@ -41,6 +41,10 @@ h1{
 	opacity:1;
 }
 
+#waveSec.hover{
+	color:white;
+}
+
 .wave3 #waveSec{
 	right:0;
 }
