@@ -17,17 +17,16 @@ h1{
 
 .wave{
 	position:relative;
-	width:80%;
+	width:50%;
 	height:200px;
-	/*background-color:  #cc00ff;*/
+	background-color:  #cc00ff;
 	float:left;
 }
 
 .wave2{
 	position:relative;
-	width:100%;
-	height:100px;
-	background-color:  #cc00ff;
+	width:20%;
+	height:20%;
 	float:left;
 
 }
@@ -45,44 +44,37 @@ h1{
 
 
 
-#waveSec{
+#waveShrink{
 	position: absolute;
-	margin-top: 1%;
+	margin-top: 10px;
+	margin-left:10%;
 	width: 90%;
 	height: 90%;
 	opacity:.2;
 	background-color:black;
-	/*box-shadow: -50px -50px 0px #0000ff;*/
+
+	
+}
+
+#waveGrow{
+	position: absolute;
+	margin-top: -10px;
+	margin-left:10%;
+	width: 110%;
+	height: 110%;
+	opacity:.2;
+	background-color:black;
+
+	
 }
 
 .wave2 #waveSec{
 	position: absolute;
-	margin-top: 1%;
-	width: 95%;
-	height: 85%;
+	margin-top: 10%;
+	width: 20%;
+	height: 55%;
 	opacity:.6;
 
 
 }
 
-.full{
-	position:absolute;
-	width:100%;
-	height:100%;
-	}
-
-#waveSecFull{
-	position: absolute;
-	width: 100%;
-	height: 90%;
-	opacity:1;
-}
-
-#waveSec.hover{
-	color:white;
-}
-
-img{
-	width:100%;
-	height:100%;
-}
