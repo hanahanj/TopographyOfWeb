@@ -50,10 +50,25 @@ h1{
 	margin-top: 1%;
 	width: 90%;
 	height: 90%;
-	opacity:.2;
+	opacity:1;
 	background-color:black;
 	/*box-shadow: -50px -50px 0px #0000ff;*/
+
+	animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 2s;*/
 }
+
+@keyframes example {
+    0%   { opacity: 0; margin-top:-5%;}
+     25%  { opacity: 0; margin-top:1%;}
+    50%  { width: 100%; opacity: 1; margin-top:1%;}
+   25%  { opacity: 0; margin-top:1%;}
+    100% { opacity: 0; margin-top:-5%;}
+}
+
+
 
 .wave2 #waveSec{
 	position: absolute;
