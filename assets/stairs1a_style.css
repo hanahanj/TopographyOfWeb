@@ -14,20 +14,23 @@ h1{
 	font-size: 100px;
 }
 
-.wave{
+.shrink{
 	position:relative;
-	width:22%;
+	width:33.33333333%;
 	height:600px;
 	/*background-color:  #cc00ff;*/
 	float:left;
 }
 
-.wave2{
-	position:relative;
-	width:4%;
-	height:50px;
-	/*background-color:  #cc00ff;*/
-	float:left;
+.grow{
+	    position: relative;
+    width: 7%;
+    height: 50px;
+    background-color: #cc00ff;
+    float: left;
+    margin-left:-38px;
+
+}
 }
 
 .row{
@@ -38,6 +41,7 @@ h1{
 
 #rotate{
 	transform: rotate(180deg);
+	margin-top: -60px;
 }
 
 
@@ -46,25 +50,18 @@ h1{
 	position: absolute;
 	width: 90%;
 	height: 90%;
-	opacity:.6;
+	
 	background-color: black;
 	/*box-shadow: 10px 10px 10px black;*/
 }
 
-.wave2 #waveSec{
+.grow #waveSec{
 	position: absolute;
-	width: 110%;
-	height: 110%;
-	opacity:.9;
+	width: 111.5%;
+	height: 109.6%;
+	opacity: .9;
 	background-color: black;
 }
 
-.wave2 #rotated #waveSec {
-	position: absolute;
-	width: 110%;
-	height: 110%;
-	opacity:.9;
-	top:100%;
-	background-color: black;
-}
+
 
