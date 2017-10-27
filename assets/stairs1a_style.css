@@ -32,12 +32,26 @@ h1{
     margin-left:-38px;
 
 }
-}
+
 
 .row{
 	position:relative;
 	width:100%;
+	height:600px;
+}
+
+.row2{
+	position:relative;
+	width:100%;
 	height:auto;
+	top:-60px;
+}
+
+.row3{
+	position:relative;
+	width:100%;
+	height:auto;
+	top:-120px;
 }
 
 #rotate{

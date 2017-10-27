@@ -35,7 +35,7 @@ h1{
 
 }
 
-@keyframes bg-change {
+/*@keyframes bg-change {
     0%   { background-color:  #cc00ff;}
     
     25%  { background-color:  #cc00cc;}
@@ -45,7 +45,7 @@ h1{
     75% { background-color:  #cc00cc;}
 
     100% { background-color:  #cc00ff;}
-}
+}*/
 
 
 .row{
@@ -75,13 +75,13 @@ h1{
     /*animation-delay: 2s;*/
 }
 
-@keyframes example {
+/*@keyframes example {
     0%   { opacity: .8; margin-top:1%;}
      
     50%  { opacity: .4; margin-top:-.1%;}
 
     100% { opacity: .8; margin-top:1%;}
-}
+}*/
 
 
 
