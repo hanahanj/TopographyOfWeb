@@ -29,22 +29,7 @@ h1{
 	height:100px;
 	background-color:  #cc00ff;
 	float:left;
-	animation-name: bg-change;
-    animation-duration: 80s;
-    animation-iteration-count: infinite;
 
-}
-
-@keyframes bg-change {
-    0%   { background-color:  #cc00ff;}
-    
-    25%  { background-color:  #cc00cc;}
-
-    50%  { background-color:  #cc0099;}
-
-    75% { background-color:  #cc00cc;}
-
-    100% { background-color:  #cc00ff;}
 }
 
 
@@ -70,7 +55,7 @@ h1{
 	/*box-shadow: -50px -50px 0px #0000ff;*/
 
 	animation-name: example;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     /*animation-delay: 2s;*/
 }

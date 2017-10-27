@@ -18,6 +18,7 @@ h1{
 	position:relative;
 	width:33.33333333%;
 	height:600px;
+	opacity:.2;
 	/*background-color:  #cc00ff;*/
 	float:left;
 }
@@ -42,6 +43,7 @@ h1{
 #rotate{
 	transform: rotate(180deg);
 	margin-top: -60px;
+	margin-left:-54px;
 }
 
 
@@ -52,7 +54,7 @@ h1{
 	height: 90%;
 	
 	background-color: black;
-	/*box-shadow: 10px 10px 10px black;*/
+
 }
 
 .grow #waveSec{
@@ -61,6 +63,7 @@ h1{
 	height: 109.6%;
 	opacity: .9;
 	background-color: black;
+	box-shadow: 10px 10px 10px black;
 }
 
 
